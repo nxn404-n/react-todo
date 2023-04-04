@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Segoe UI", sans-serif;
+  line-height: 1.4;
+  color: #000;
+  background: #fff;
+  height: 100vh;
+  font-weight: 400;
+}
+
+form {
+  display: flex;
+  margin: 20px;
+  gap: 10px;
+  align-items: center;
+}
+
+.inputForm {
+  width: 270px;
+  height: 40px;
+  font-size: 17px;
+}
+
+.submitBtn {
+  width: 100px;
+  height: 30px;
+  font-size: 17px;
+  background-color: tomato;
+  border: none;
+  border-radius: 8px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+  list-style: none;
+  gap: 10px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  height: 40px;
+  padding: 30px 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  gap: 10px;
+}
+
+.textInput {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dfdfdf;
+  outline: none;
+}
