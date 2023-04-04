@@ -27,8 +27,9 @@ const InputTodo = ({ addTodoItem }) => {
         placeholder="Add Todo..."
         value={title}
         onChange={handleChange}
+        className='inputForm'
       />
-      <button>Submit</button>
+      <button className='submitBtn'>Submit</button>
     </form>
     <span>{message}</span>
     </>

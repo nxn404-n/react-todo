@@ -1,4 +1,4 @@
-import './App.css';
+import './styles/App.css';
 import TodosLogic from './components/TodosLogic';
 
 function App() {
